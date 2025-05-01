@@ -1,25 +1,14 @@
 import sqlite3
+import os
+con = sqlite3.connect(os.path.abspath('utils/data_base/nomes.db'))
 
-con = sqlite3.connect('nomes.db')
 cursor = con.cursor()
 
-class Queries:
+def name_list():
+    cursor.execute('SELECT nome FROM names')
+    nomes = []
+    for linha in cursor.fetchall():
+        nomes.append(linha[0])
+    
+    return nomes
 
-
-    def name_queries(self):        
-        return cursor.execute('SELECT nome FROM names')
-
-# Tests
-# ----------------------------
-queries = Queries()
-nomes = queries.name_queries()
-
-name_list = []
-def save_name_list():
-    for nome in nomes:
-        # print(nome[0])
-        name_list.append(nome[0])
-    return name_list
-
-
-print(save_name_list())
