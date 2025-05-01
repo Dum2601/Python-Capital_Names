@@ -40,7 +40,7 @@ You can find the full challenge in [`Challenge.txt`](Challenge.txt).
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/Dum2601/Python-Capital_Names.git)
+   git clone https://github.com/your-username/your-repo-name.git
    ```
 
 2. Navigate to the project folder:
@@ -109,7 +109,7 @@ O enunciado completo está disponível em [`Challenge.txt`](Challenge.txt).
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/Dum2601/Python-Capital_Names.git)
+   git clone https://github.com/your-username/your-repo-name.git
    ```
 
 2. Acesse o diretório do projeto:
