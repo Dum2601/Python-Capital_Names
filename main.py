@@ -1,8 +1,4 @@
-from utils.data_base.database_queries import Queries
-
-queries = Queries()
-nomes = queries.name_queries()
+from utils.data_base.database_queries import save_name_list
 
 
-for nome in nomes:
-    print(nome[0])
+print(save_name_list)
