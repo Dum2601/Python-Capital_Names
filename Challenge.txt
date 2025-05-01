@@ -1,0 +1,13 @@
+2. Capitalizar Nomes
+Descrição:
+Você está desenvolvendo um cadastro de nomes e precisa garantir que todos os nomes iniciem com letra maiúscula.
+
+Entrada:
+Uma string com nomes separados por vírgula: "joão,maria,ana,paulo"
+
+Saída Esperada:
+Uma lista com os nomes capitalizados: ["João", "Maria", "Ana", "Paulo"]
+
+
+
+Usar sqlite
